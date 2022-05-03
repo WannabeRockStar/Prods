@@ -1,0 +1,97 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Giorgi",
+      "email": "test@gmail.com"
+    },
+    {
+      "email": "ggg@gmail.com",
+      "username": "Giiivi",
+      "password": "password",
+      "id": 2
+    },
+    {
+      "email": "valbuena@gmail.com",
+      "username": "valeri valbuena",
+      "password": "password",
+      "id": 3
+    },
+    {
+      "email": "caller@gmail.com",
+      "username": "called",
+      "password": "password",
+      "id": 4
+    },
+    {
+      "email": "guguli@gmail.com",
+      "username": "gugui",
+      "password": "password",
+      "id": 5
+    },
+    {
+      "email": "arakhamia@gmail.com",
+      "username": "arakhamia",
+      "password": "password",
+      "id": 6
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "imageUrl": "https://media.missguided.com/i/missguided/BW104732_01?fmt=webp&$product-page__main--3x$",
+      "title": "Green Dress",
+      "price": 35,
+      "quantity": 2
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://media.missguided.com/i/missguided/J1003363_01?fmt=webp&$product-page__main--3x$",
+      "title": "Pink Dress",
+      "price": 42,
+      "quantity": 5
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://media.missguided.com/i/missguided/WXDE935848_01?fmt=webp&$product-page__main--3x$",
+      "title": "Red Dress",
+      "price": 57,
+      "quantity": 5
+    },
+    {
+      "id": 4,
+      "imageUrl": "https://media.missguided.com/i/missguided/BW101636_01?fmt=webp&$product-page__main--3x$",
+      "title": "Dark Pink",
+      "price": 40,
+      "quantity": 5
+    },
+    {
+      "id": 5,
+      "imageUrl": "https://media.missguided.com/i/missguided/TBW105986_01?fmt=webp&$product-page__main--3x$",
+      "title": "Stripped",
+      "price": 32,
+      "quantity": 5
+    },
+    {
+      "id": 6,
+      "imageUrl": "https://media.missguided.com/i/missguided/DE936052_01?fmt=webp&$product-page__main--3x$",
+      "title": "Black and White",
+      "price": 59,
+      "quantity": 5
+    },
+    {
+      "id": 7,
+      "imageUrl": "https://media.missguided.com/i/missguided/PTX12215_01?fmt=webp&$product-page__main--3x$",
+      "title": "Greener",
+      "price": 50,
+      "quantity": 5
+    },
+    {
+      "id": 8,
+      "imageUrl": "https://media.missguided.com/i/missguided/J9704115_01?fmt=webp&$product-page__main--3x$",
+      "title": "Green Dress",
+      "price": 43,
+      "quantity": 5
+    }
+  ]
+}

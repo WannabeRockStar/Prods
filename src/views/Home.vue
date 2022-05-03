@@ -1,18 +1,36 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+    <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      <Product 
+        v-for="product in getProducts" 
+        :key="product.id" 
+        :data="product" />
+    </ul>
+    <DetailsModal />
   </div>
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
-import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
+import { defineComponent, computed } from 'vue';
+import { useStore } from 'vuex'
+import Product from '@/components/Product.vue'; // @ is an alias to /src
+import DetailsModal from '@/components/DetailsModal.vue'; 
 
 export default defineComponent({
   name: 'Home',
   components: {
-    HelloWorld,
+    Product,
+    DetailsModal
   },
+
+  setup() {
+    const store = useStore()
+
+    const getProducts = computed(() => store.state.product.products)
+
+    store.dispatch('product/fetchProducts')
+
+    return { getProducts }
+  }
 });
 </script>

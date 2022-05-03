@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.show-visible {
+    visibility: visible;
+}
+.translate-show {
+    transform: translateX(0);  
+}
+.d-block {
+    display: block;
+}
+
+@layer base {
+    .input-style {
+        @apply border border-gray-400 pl-2 rounded w-full h-10 shadow 
+    }
+}
